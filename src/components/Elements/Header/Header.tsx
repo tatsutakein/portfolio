@@ -7,6 +7,7 @@ import { ContentLayout } from '@/components/Layout';
 const headerLinkList = [
   { title: 'Home', link: '/' },
   { title: 'Tech', link: '/tech' },
+  { title: 'Works', link: '/works' },
 ];
 
 export const Header = (): JSX.Element => {

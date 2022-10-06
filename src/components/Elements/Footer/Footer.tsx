@@ -6,6 +6,7 @@ import { ContentLayout } from '@/components/Layout';
 const footerLinkList = [
   { title: 'ホーム', link: '/' },
   { title: '技術ブログ', link: '/tech' },
+  { title: '制作実績', link: '/works' },
   { title: 'プライバシーポリシー', link: '/privacy' },
 ];
 
