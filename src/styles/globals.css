@@ -24,4 +24,13 @@
   h6 {
     @apply text-base mt-12 mb-6
   }
+  a, button {
+    @apply tap-highlight-color-transparent
+  }
+}
+
+@layer utilities {
+  .tap-highlight-color-transparent {
+    -webkit-tap-highlight-color: transparent;
+  }
 }
