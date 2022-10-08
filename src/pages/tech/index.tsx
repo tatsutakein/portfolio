@@ -31,7 +31,8 @@ export const getStaticProps: GetStaticProps<TechArticleListScreenProps> = async 
     .from('tech_full_articles')
     .select('id, published_at, title, content, url, width, height')
     .is('deleted_at', null)
-    .lt('published_at', new Date().toISOString());
+    .lt('published_at', new Date().toISOString())
+    .order('published_at', { ascending: false });
 
   // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access,@typescript-eslint/restrict-template-expressions
   const articleIds = articleEntities?.map((entity) => `${entity.id}`) ?? [];
