@@ -23,7 +23,7 @@
     "zenn-markdown-html": "^0.1.128"
   },
   "devDependencies": {
-    "@types/gtag.js": "^0.0.11",
+    "@types/gtag.js": "^0.0.12",
     "@types/node": "^18.7.18",
     "@types/react": "^18.0.20",
     "@typescript-eslint/eslint-plugin": "^5.38.0",
